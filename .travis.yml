@@ -2,8 +2,9 @@ sudo: false
 language: rust
 rust:
   - nightly
-  - beta
-  - stable
+# - beta
+# - stable
+# ^ to be changed once question_mark becomes stable
 before_script:
         - cargo install mdbook --git https://github.com/azerupi/mdBook.git
 script:
